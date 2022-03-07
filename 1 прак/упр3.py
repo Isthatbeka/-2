@@ -5,9 +5,5 @@ plt.plot(x, np.log((x**2 + 1) * np.exp(-abs(x)/10))/ np.log(1 + np.tan(1/(1 + (n
 
 sp = plt.subplot(111)
 
-sp.spines['left'].set_position('center')
-sp.spines['bottom'].set_position('center')
-sp.spines['top'].set_position('center')
-sp.spines['right'].set_position('center')
 plt.axis('equal')
 plt.show()
