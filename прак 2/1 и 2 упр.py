@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 a = list()
 word = input()
 while word != '':
@@ -29,13 +28,5 @@ else:
     else:
         b = (a[len(a) // 4])
         k = (a[(3*len(a)) // 4])
-
-colors = ['white', 'pink', 'red']
-labels = ['белые', 'розовые', 'красные']
-x = [1, 2, 3]
-y = [37, 75, 94]
-plt.bar(x, y, color=colors, edgecolor='k', tick_label=labels)
-plt.grid(True, axis='y')
-
 print(float(b))
 print(float(k))
