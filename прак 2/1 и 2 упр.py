@@ -1,4 +1,4 @@
-
+import matplotlib.pyplot as plt
 a = list()
 word = input()
 while word != '':
